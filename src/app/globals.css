@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  scroll-behavior: smooth;
+}
+
+button,
+a {
+  @apply cursor-default lg:cursor-pointer outline-none;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  background: #d1d1d1;
+}
+*::-webkit-scrollbar-track {
+  background: #d1d1d1;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 16px;
+  background-color: #1a1a1a;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
