@@ -18,5 +18,7 @@
   "singleAttributePerLine": true,
   "endOfLine": "lf",
   "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindAttributes": ["classNames"],
+  "tailwindFunctions": ["cn"],
   "overrides": []
 }
